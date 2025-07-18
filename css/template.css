@@ -1,0 +1,56 @@
+/* Estilos customizados para o tema Neobrutalista */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fdfbf8; /* Um branco levemente amarelado */
+  color: #111827;
+}
+
+/* Fonte customizada para títulos */
+.font-title {
+  font-family: "Archivo Black", sans-serif;
+}
+
+/* Sombra sólida característica do Neobrutalismo */
+.neo-shadow {
+  box-shadow: 4px 4px 0px #111827;
+}
+
+.neo-shadow-sm {
+  box-shadow: 2px 2px 0px #111827;
+}
+
+/* Animação para botões e links */
+.neo-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.neo-button:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #111827;
+}
+
+.neo-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #111827;
+}
+
+/* Cores para os cards de projeto */
+.bg-card-yellow {
+  background-color: #ffd23f;
+}
+.bg-card-blue {
+  background-color: #54a0ff;
+}
+.bg-card-green {
+  background-color: #57cc99;
+}
+.bg-card-red {
+  background-color: #ff6b6b;
+}
+
+/* Estilo para os ícones de skills */
+.skill-icon {
+  font-size: 2.5rem; /* Tamanho do ícone */
+  width: 64px;
+  height: 64px;
+}
