@@ -19,6 +19,7 @@
     <!-- Devicon para ícones de tecnologia -->
     <link
       rel="stylesheet"
+      type="text/css"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
 
@@ -31,18 +32,14 @@
       <header
         class="flex flex-col sm:flex-row justify-between items-center mb-16"
       >
-        <h1 class="font-title text-3xl mb-4 sm:mb-0">SEU.NOME()</h1>
+        <h1 class="font-title text-3xl mb-4 sm:mb-0">{ Gilberto Medeiros }</h1>
         <nav>
           <ul class="flex space-x-4">
             <li>
-              <a href="#projetos" class="font-semibold hover:underline"
-                >Projetos</a
-              >
+              <a href="#projetos" class="neo-button font-semibold">Projetos</a>
             </li>
             <li>
-              <a href="#contato" class="font-semibold hover:underline"
-                >Contato</a
-              >
+              <a href="#contato" class="neo-button font-semibold">Contato</a>
             </li>
           </ul>
         </nav>
@@ -55,7 +52,7 @@
             <!-- Foto e Logo -->
             <div class="relative w-48 h-48 md:w-56 md:h-56 flex-shrink-0">
               <img
-                src="https://placehold.co/250x250/EFE8D8/111827?text=Sua+Foto"
+                src="./images/GilbertoMedeiros.jfif"
                 alt="Foto do Desenvolvedor"
                 class="w-full h-full object-cover border-2 border-black neo-shadow"
                 onerror="this.onerror=null;this.src='https://placehold.co/250x250/EFE8D8/111827?text=Sua+Foto';"
@@ -93,24 +90,52 @@
             <h3 class="font-title text-3xl mb-6">Hard Skills</h3>
             <div class="flex flex-wrap gap-4">
               <i
-                class="devicon-java-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
-                title="Java"
+                class="devicon-javascript-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="JavaScript"
               ></i>
               <i
-                class="devicon-spring-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
-                title="Spring Boot"
+                class="devicon-typescript-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="TypeScript"
               ></i>
               <i
                 class="devicon-python-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
                 title="Python"
               ></i>
               <i
+                class="devicon-go-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="Go"
+              ></i>
+              <i
                 class="devicon-nodejs-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
                 title="Node.js"
               ></i>
               <i
+                class="devicon-denojs-original colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="Deno"
+              ></i>
+              <i
+                class="devicon-npm-original-wordmark colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="NPM"
+              ></i>
+              <i
+                class="devicon-yarn-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="YARN"
+              ></i>
+              <i
+                class="devicon-express-original colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="Express.js"
+              ></i>
+              <i
+                class="devicon-nestjs-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="Nest.js"
+              ></i>
+              <i
                 class="devicon-postgresql-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
                 title="PostgreSQL"
+              ></i>
+              <i
+                class="devicon-mysql-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="MySQL"
               ></i>
               <i
                 class="devicon-mongodb-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
@@ -121,11 +146,11 @@
                 title="Docker"
               ></i>
               <i
-                class="devicon-kubernetes-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
-                title="Kubernetes"
+                class="devicon-azure-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                title="Azure"
               ></i>
               <i
-                class="devicon-amazonwebservices-original colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
+                class="devicon-amazonwebservices-plain colored skill-icon bg-gray-200 border-2 border-black p-2 neo-shadow-sm"
                 title="AWS"
               ></i>
               <i
@@ -158,6 +183,10 @@
                 class="bg-gray-200 border-2 border-black px-4 py-2 font-bold neo-shadow-sm"
                 >Adaptabilidade</span
               >
+              <span
+                class="bg-gray-200 border-2 border-black px-4 py-2 font-bold neo-shadow-sm"
+                >Resiliência</span
+              >
             </div>
           </div>
         </section>
@@ -171,20 +200,20 @@
               class="bg-card-yellow border-2 border-black neo-shadow flex flex-col overflow-hidden"
             >
               <img
-                src="https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?q=80&w=2070&auto=format&fit=crop"
-                alt="Imagem do Projeto API de E-commerce"
-                class="w-full h-48 object-cover border-b-2 border-black"
+                src="./images/Fast Go Api.png"
+                alt="Imagem do Projeto First GO Api"
+                class="w-full h-48 object-contain bg-gray-100 border-b-2 border-black"
                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/111827/FFD23F?text=E-Commerce+API';"
               />
               <div class="p-6 flex flex-col flex-grow">
-                <h4 class="font-title text-2xl mb-2">API de E-commerce</h4>
+                <h4 class="font-title text-2xl mb-2">First GO Api</h4>
                 <p class="mb-4 flex-grow">
-                  Uma API RESTful completa para uma loja virtual, com
-                  gerenciamento de produtos, usuários, pedidos e autenticação
-                  JWT.
+                  Aplicando conhecimento em Golang, usando docker compose e
+                  mysql!.
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Lobo-rio/first-golang-api"
+                  target="_blank"
                   class="bg-black text-white font-bold py-2 px-4 border-2 border-black self-start neo-button mt-auto"
                   >Ver no GitHub</a
                 >
@@ -201,15 +230,14 @@
                 onerror="this.onerror=null;this.src='https://placehold.co/600x400/ffffff/54A0FF?text=Pagamentos';"
               />
               <div class="p-6 flex flex-col flex-grow">
-                <h4 class="font-title text-2xl mb-2">
-                  Microsserviço de Pagamentos
-                </h4>
+                <h4 class="font-title text-2xl mb-2">Third python Api</h4>
                 <p class="mb-4 flex-grow">
-                  Microsserviço para processamento de pagamentos integrado com
-                  gateways populares, construído com Spring Boot e Kafka.
+                  Estudo de Python, com Flask, Flask-RestX, Werkzeug,
+                  SQLAlchemy, Pydantic e SQLite, gerando um swagger!
                 </p>
                 <a
-                  href="#"
+                  href="https://github.com/Lobo-rio/third-python-api"
+                  target="_blank"
                   class="bg-white text-black font-bold py-2 px-4 border-2 border-black self-start neo-button mt-auto"
                   >Ver no GitHub</a
                 >
@@ -294,11 +322,16 @@
       <footer class="mt-16 pt-8 border-t-2 border-black">
         <div class="flex flex-col sm:flex-row justify-between items-center">
           <p class="text-sm font-semibold mb-4 sm:mb-0">
-            &copy; 2024 - Seu Nome. Todos os direitos reservados.
+            &copy; 2025 - Gilberto Medeiros. Todos os direitos reservados.
           </p>
           <div class="flex space-x-4">
             <!-- GitHub -->
-            <a href="#" title="GitHub" class="neo-button">
+            <a
+              href="https://github.com/Lobo-rio"
+              target="_blank"
+              title="GitHub"
+              class="neo-button"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -317,7 +350,12 @@
               </svg>
             </a>
             <!-- LinkedIn -->
-            <a href="#" title="LinkedIn" class="neo-button">
+            <a
+              href="https://www.linkedin.com/in/gilberto-medeiros/"
+              target="_blank"
+              title="LinkedIn"
+              class="neo-button"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
